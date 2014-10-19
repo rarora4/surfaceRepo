@@ -1,0 +1,13 @@
+c:\users\prairierose\documents\visual studio 2013\Projects\KayakHomePage\KayakHomePage\bin\Debug\KayakHomePage.exe.config
+c:\users\prairierose\documents\visual studio 2013\Projects\KayakHomePage\KayakHomePage\bin\Debug\KayakHomePage.exe
+c:\users\prairierose\documents\visual studio 2013\Projects\KayakHomePage\KayakHomePage\bin\Debug\KayakHomePage.pdb
+c:\users\prairierose\documents\visual studio 2013\Projects\KayakHomePage\KayakHomePage\obj\Debug\KayakHomePage.csprojResolveAssemblyReference.cache
+c:\users\prairierose\documents\visual studio 2013\Projects\KayakHomePage\KayakHomePage\obj\Debug\MainWindow.baml
+c:\users\prairierose\documents\visual studio 2013\Projects\KayakHomePage\KayakHomePage\obj\Debug\MainWindow.g.cs
+c:\users\prairierose\documents\visual studio 2013\Projects\KayakHomePage\KayakHomePage\obj\Debug\App.g.cs
+c:\users\prairierose\documents\visual studio 2013\Projects\KayakHomePage\KayakHomePage\obj\Debug\KayakHomePage_MarkupCompile.cache
+c:\users\prairierose\documents\visual studio 2013\Projects\KayakHomePage\KayakHomePage\obj\Debug\KayakHomePage.g.resources
+c:\users\prairierose\documents\visual studio 2013\Projects\KayakHomePage\KayakHomePage\obj\Debug\KayakHomePage.Properties.Resources.resources
+c:\users\prairierose\documents\visual studio 2013\Projects\KayakHomePage\KayakHomePage\obj\Debug\KayakHomePage.csproj.GenerateResource.Cache
+c:\users\prairierose\documents\visual studio 2013\Projects\KayakHomePage\KayakHomePage\obj\Debug\KayakHomePage.exe
+c:\users\prairierose\documents\visual studio 2013\Projects\KayakHomePage\KayakHomePage\obj\Debug\KayakHomePage.pdb
