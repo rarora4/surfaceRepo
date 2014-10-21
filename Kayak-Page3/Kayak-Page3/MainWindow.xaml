@@ -5,14 +5,14 @@
         Title="MainWindow" Height="800" MinHeight="800" MaxHeight="800" Width="1422"  MinWidth="1422" MaxWidth="1422"
         MouseLeftButtonDown="Window_MouseLeftButtonDown">
     <Window.Resources>
-        <BitmapImage x:Key="BackgroundImg" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="C:\Users\Rohit\Documents\Visual Studio 2013\Projects\Kayak-Page3\Kayak-Page3\images\background.png"/>
-        <BitmapImage x:Key="btnBackImg" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="C:\Users\Rohit\Documents\Visual Studio 2013\Projects\Kayak-Page3\Kayak-Page3\images\button_back.png"/>
-        <BitmapImage x:Key="btnBackHoverImg" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="C:\Users\Rohit\Documents\Visual Studio 2013\Projects\Kayak-Page3\Kayak-Page3\images\button_hover_back.png"/>
-        <BitmapImage x:Key="btnStopsImg" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="C:\Users\Rohit\Documents\Visual Studio 2013\Projects\Kayak-Page3\Kayak-Page3\images\button_stops.png"/>
-        <BitmapImage x:Key="btnPriceImg" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="C:\Users\Rohit\Documents\Visual Studio 2013\Projects\Kayak-Page3\Kayak-Page3\images\button_price.png"/>
-        <BitmapImage x:Key="btnDepartureImg" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="C:\Users\Rohit\Documents\Visual Studio 2013\Projects\Kayak-Page3\Kayak-Page3\images\button_departure.png"/>
-        <BitmapImage x:Key="btnReturnImg" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="C:\Users\Rohit\Documents\Visual Studio 2013\Projects\Kayak-Page3\Kayak-Page3\images\button_return.png"/>
-        <BitmapImage x:Key="btnAirlinesImg" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="C:\Users\Rohit\Documents\Visual Studio 2013\Projects\Kayak-Page3\Kayak-Page3\images\button_airlines.png"/>
+        <BitmapImage x:Key="BackgroundImg" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="..\..\images\background.png"/>
+        <BitmapImage x:Key="btnBackImg" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="..\..\images\button_back.png"/>
+        <BitmapImage x:Key="btnBackHoverImg" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="..\..\images\button_hover_back.png"/>
+        <BitmapImage x:Key="btnStopsImg" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="..\..\images\button_stops.png"/>
+        <BitmapImage x:Key="btnPriceImg" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="..\..\images\button_price.png"/>
+        <BitmapImage x:Key="btnDepartureImg" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="..\..\images\button_departure.png"/>
+        <BitmapImage x:Key="btnReturnImg" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="..\..\images\button_return.png"/>
+        <BitmapImage x:Key="btnAirlinesImg" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="..\..\images\button_airlines.png"/>
 
         <Style TargetType="Border" x:Key="MyBorderStyle">
             <Setter Property="BorderThickness" Value="2px"/>
