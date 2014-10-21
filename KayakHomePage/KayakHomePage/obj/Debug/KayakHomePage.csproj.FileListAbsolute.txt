@@ -11,3 +11,16 @@ c:\users\prairierose\documents\visual studio 2013\Projects\KayakHomePage\KayakHo
 c:\users\prairierose\documents\visual studio 2013\Projects\KayakHomePage\KayakHomePage\obj\Debug\KayakHomePage.csproj.GenerateResource.Cache
 c:\users\prairierose\documents\visual studio 2013\Projects\KayakHomePage\KayakHomePage\obj\Debug\KayakHomePage.exe
 c:\users\prairierose\documents\visual studio 2013\Projects\KayakHomePage\KayakHomePage\obj\Debug\KayakHomePage.pdb
+C:\Users\PrairieRose\Documents\GitHub\surfaceRepo\KayakHomePage\KayakHomePage\bin\Debug\KayakHomePage.exe.config
+C:\Users\PrairieRose\Documents\GitHub\surfaceRepo\KayakHomePage\KayakHomePage\obj\Debug\KayakHomePage.exe
+C:\Users\PrairieRose\Documents\GitHub\surfaceRepo\KayakHomePage\KayakHomePage\obj\Debug\KayakHomePage.pdb
+C:\Users\PrairieRose\Documents\GitHub\surfaceRepo\KayakHomePage\KayakHomePage\bin\Debug\KayakHomePage.exe
+C:\Users\PrairieRose\Documents\GitHub\surfaceRepo\KayakHomePage\KayakHomePage\bin\Debug\KayakHomePage.pdb
+C:\Users\PrairieRose\Documents\GitHub\surfaceRepo\KayakHomePage\KayakHomePage\obj\Debug\KayakHomePage.csprojResolveAssemblyReference.cache
+C:\Users\PrairieRose\Documents\GitHub\surfaceRepo\KayakHomePage\KayakHomePage\obj\Debug\MainWindow.baml
+C:\Users\PrairieRose\Documents\GitHub\surfaceRepo\KayakHomePage\KayakHomePage\obj\Debug\MainWindow.g.cs
+C:\Users\PrairieRose\Documents\GitHub\surfaceRepo\KayakHomePage\KayakHomePage\obj\Debug\App.g.cs
+C:\Users\PrairieRose\Documents\GitHub\surfaceRepo\KayakHomePage\KayakHomePage\obj\Debug\KayakHomePage_MarkupCompile.cache
+C:\Users\PrairieRose\Documents\GitHub\surfaceRepo\KayakHomePage\KayakHomePage\obj\Debug\KayakHomePage.g.resources
+C:\Users\PrairieRose\Documents\GitHub\surfaceRepo\KayakHomePage\KayakHomePage\obj\Debug\KayakHomePage.Properties.Resources.resources
+C:\Users\PrairieRose\Documents\GitHub\surfaceRepo\KayakHomePage\KayakHomePage\obj\Debug\KayakHomePage.csproj.GenerateResource.Cache
