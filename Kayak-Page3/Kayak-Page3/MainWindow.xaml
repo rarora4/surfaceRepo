@@ -1,0 +1,267 @@
+﻿<Window x:Class="Kayak_Page3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:DesignInControl="clr-namespace:DesignInControl"
+        Title="MainWindow" Height="800" MinHeight="800" MaxHeight="800" Width="1422"  MinWidth="1422" MaxWidth="1422"
+        MouseLeftButtonDown="Window_MouseLeftButtonDown">
+    <Window.Resources>
+        <BitmapImage x:Key="BackgroundImg" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="C:\Users\Rohit\Documents\Visual Studio 2013\Projects\Kayak-Page3\Kayak-Page3\images\background.png"/>
+        <BitmapImage x:Key="btnBackImg" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="C:\Users\Rohit\Documents\Visual Studio 2013\Projects\Kayak-Page3\Kayak-Page3\images\button_back.png"/>
+        <BitmapImage x:Key="btnBackHoverImg" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="C:\Users\Rohit\Documents\Visual Studio 2013\Projects\Kayak-Page3\Kayak-Page3\images\button_hover_back.png"/>
+        <BitmapImage x:Key="btnStopsImg" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="C:\Users\Rohit\Documents\Visual Studio 2013\Projects\Kayak-Page3\Kayak-Page3\images\button_stops.png"/>
+        <BitmapImage x:Key="btnPriceImg" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="C:\Users\Rohit\Documents\Visual Studio 2013\Projects\Kayak-Page3\Kayak-Page3\images\button_price.png"/>
+        <BitmapImage x:Key="btnDepartureImg" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="C:\Users\Rohit\Documents\Visual Studio 2013\Projects\Kayak-Page3\Kayak-Page3\images\button_departure.png"/>
+        <BitmapImage x:Key="btnReturnImg" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="C:\Users\Rohit\Documents\Visual Studio 2013\Projects\Kayak-Page3\Kayak-Page3\images\button_return.png"/>
+        <BitmapImage x:Key="btnAirlinesImg" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="C:\Users\Rohit\Documents\Visual Studio 2013\Projects\Kayak-Page3\Kayak-Page3\images\button_airlines.png"/>
+
+        <Style TargetType="Border" x:Key="MyBorderStyle">
+            <Setter Property="BorderThickness" Value="2px"/>
+            <Setter Property="BorderBrush" Value="Black"/>
+            <Setter Property="Background" Value="White"/>
+        </Style>
+
+    </Window.Resources>
+
+    <Canvas>
+
+        <!--Canvas Background Definition Start-->
+        <Canvas.Background>
+            <ImageBrush ImageSource="{DynamicResource BackgroundImg}"/>
+        </Canvas.Background>
+        <!--Canvas Background Definition End-->
+
+        <!-- Back Button-->
+        <Button Name="btnBack"
+                Height="50" 
+                Width="50"
+                BorderBrush="Transparent"
+                BorderThickness="0" Margin="34,54" Click="btnBack_Click">
+            
+            <Button.Template>
+                 <ControlTemplate TargetType="Button">
+                    <Border Name="border" BorderThickness="0" 
+                        Background="Transparent">
+                        <ContentPresenter Content="{TemplateBinding Content}"/>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                    <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" TargetName="border">
+                           <Setter.Value>
+                                    <ImageBrush ImageSource="{DynamicResource btnBackHoverImg}" Stretch="None" />
+                           </Setter.Value>
+                        </Setter>
+                    </Trigger>
+                </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Button.Template>
+
+            <Button.Background>
+                <ImageBrush ImageSource="{DynamicResource btnBackImg}" Stretch="None"/>
+            </Button.Background>
+            
+        </Button>
+        <!--Back Button End-->
+
+
+        <!-- Stop Button-->
+        <Button Name="btnStops"
+                Height="25" 
+                Width="80"
+                Background="Transparent"
+                BorderBrush="Transparent"
+                BorderThickness="0" Canvas.Left="118" Canvas.Top="136" Click="btnStops_Click">
+            <!--<Button.Template>
+                 <ControlTemplate TargetType="Button">
+                    <ContentPresenter Content="{TemplateBinding Content}"/>
+                </ControlTemplate>
+            </Button.Template>-->
+            <Image Source="{DynamicResource btnStopsImg}" Stretch="None" Opacity="1.0" Margin="-10,0,0,0"/>
+        </Button>
+        <!--Stop Button End-->
+
+
+        <!-- Price Button-->
+        <Button Name="btnPrice"
+                Height="25" 
+                Width="120"
+                Background="Transparent"
+                BorderBrush="Transparent"
+                BorderThickness="0" Canvas.Left="206" Canvas.Top="137" Click="btnPrice_Click">
+            <!--<Button.Template>
+                 <ControlTemplate TargetType="Button">
+                    <ContentPresenter Content="{TemplateBinding Content}"/>
+                </ControlTemplate>
+            </Button.Template>-->
+            <Image Source="{DynamicResource btnPriceImg}" Stretch="None" Opacity="1.0" Margin="-34,0,0,0"/>
+        </Button>
+        <!--Price Button End-->
+
+
+        <!-- Departure Button-->
+        <Button Name="btnDeparture"
+                Height="25" 
+                Width="180"
+                Background="Transparent"
+                BorderBrush="Transparent"
+                BorderThickness="0" Canvas.Left="333" Canvas.Top="137" Click="btnDeparture_Click">
+            <!--<Button.Template>
+                 <ControlTemplate TargetType="Button">
+                    <ContentPresenter Content="{TemplateBinding Content}"/>
+                </ControlTemplate>
+            </Button.Template>-->
+            <Image Source="{DynamicResource btnDepartureImg}" Stretch="None" Opacity="1.0" Margin="-56,0,0,0"/>
+        </Button>
+        <!--Departure Button End-->
+
+
+        <!-- Return Button-->
+        <Button Name="btnReturn"
+                Height="25" 
+                Width="180"
+                Background="Transparent"
+                BorderBrush="Transparent"
+                BorderThickness="0" Canvas.Left="519" Canvas.Top="137" Click="btnReturn_Click">
+            <!--<Button.Template>
+                 <ControlTemplate TargetType="Button">
+                    <ContentPresenter Content="{TemplateBinding Content}"/>
+                </ControlTemplate>
+            </Button.Template>-->
+            <Image Source="{DynamicResource btnReturnImg}" Stretch="None" Opacity="1.0" Margin="-83,0,0,0"/>
+        </Button>
+        <!--Return Button End-->
+
+
+        <!-- Airlines Button-->
+        <Button Name="btnAirlines"
+                Height="25" 
+                Width="100"
+                Background="Transparent"
+                BorderBrush="Transparent"
+                BorderThickness="0" Canvas.Left="705" Canvas.Top="136" Click="btnAirlines_Click">
+            <!--<Button.Template>
+                 <ControlTemplate TargetType="Button">
+                    <ContentPresenter Content="{TemplateBinding Content}"/>
+                </ControlTemplate>
+            </Button.Template>-->
+            <Image Source="{DynamicResource btnAirlinesImg}" Stretch="None" Opacity="1.0" Margin="0"/>
+        </Button>
+        <!--Airlines Button End-->
+
+
+        <!-- Dropdown Menu (Stops) Start-->
+        <Border Style="{StaticResource MyBorderStyle}" Canvas.Left="118" Canvas.Top="185" Name="chkboxStop" >
+            <StackPanel Margin="10" >
+                <CheckBox IsChecked="True" BorderThickness="0px" Margin="0,10,0,0">
+                    <TextBlock FontFamily="Calibri" FontSize="18" Margin="5,-5,0,0">
+                                Nonstop
+                    </TextBlock>
+                </CheckBox >
+                <CheckBox IsChecked="True" BorderThickness="0" Margin="0,20,0,0">
+                    <TextBlock FontFamily="Calibri" FontSize="18" Margin="5,-5,0,0">
+                                1 Stop
+                    </TextBlock>
+                </CheckBox>
+            </StackPanel>
+        </Border>
+
+        <!-- Dropdown Menu (Stops) End-->
+
+
+        <!-- Dropdown Menu (Airlines) Start-->
+        <Border Style="{StaticResource MyBorderStyle}" Canvas.Left="706" Canvas.Top="185" Name="chkboxAirlines" >
+            <StackPanel Margin="10" >
+                <CheckBox IsChecked="True" BorderThickness="0px" Margin="0,10,0,0">
+                    <TextBlock FontFamily="Calibri" FontSize="18" Margin="5,-5,0,0">
+                                AirTran
+                    </TextBlock>
+                </CheckBox >
+                <CheckBox IsChecked="True" BorderThickness="0" Margin="0,20,0,0">
+                    <TextBlock FontFamily="Calibri" FontSize="18" Margin="5,-5,0,0">
+                                American Airlines
+                    </TextBlock>
+                </CheckBox>
+                <CheckBox IsChecked="True" BorderThickness="0" Margin="0,20,0,0">
+                    <TextBlock FontFamily="Calibri" FontSize="18" Margin="5,-5,0,0">
+                                Delta
+                    </TextBlock>
+                </CheckBox>
+                <CheckBox IsChecked="True" BorderThickness="0" Margin="0,20,0,0">
+                    <TextBlock FontFamily="Calibri" FontSize="18" Margin="5,-5,0,0">
+                                JetBlue Airways
+                    </TextBlock>
+                </CheckBox>
+                <CheckBox IsChecked="True" BorderThickness="0" Margin="0,20,0,0">
+                    <TextBlock FontFamily="Calibri" FontSize="18" Margin="5,-5,0,0">
+                                US Airways
+                    </TextBlock>
+                </CheckBox>
+                <CheckBox IsChecked="True" BorderThickness="0" Margin="0,20,0,0">
+                    <TextBlock FontFamily="Calibri" FontSize="18" Margin="5,-5,0,0">
+                                United
+                    </TextBlock>
+                </CheckBox>
+            </StackPanel>
+        </Border>
+
+        <!-- Dropdown Menu (Price) Start
+        <Border Style="{StaticResource MyBorderStyle}" Canvas.Left="206" Width="90" Canvas.Top="185" Name="chkboxPrice" >
+            <StackPanel Margin="10" >
+                <Slider IsSelectionRangeEnabled="True" SelectionStart="22" SelectionEnd="65" Orientation="Vertical"  Height="200" Maximum="100" HorizontalAlignment="Center" VerticalAlignment="Center" />
+            </StackPanel>
+        </Border>
+         Drop Menu Slider (Price) End-->
+
+
+        <!-- Dropdown Menu (Price) Start-->
+        <Border Style="{StaticResource MyBorderStyle}" Canvas.Left="144" Width="224" Canvas.Top="245" Name="chkboxPrice" RenderTransformOrigin="0.5,0.5" Height="104" >
+            <Border.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Border.RenderTransform>
+            <StackPanel Margin="8,72,12,8" >
+                <DesignInControl:RangeSlider x:Name="rangeSliderPrice" Height="10" LowerValue="0" UpperValue="100" BorderThickness="0" Padding="0,6,-4,0" VerticalAlignment="Top" Margin="0" />
+            </StackPanel>
+        </Border>
+        <!-- Drop Menu Slider (Price) Start-->
+
+
+        <!-- Dropdown Menu (Departure) Start-->
+        <Border Style="{StaticResource MyBorderStyle}" Canvas.Left="270" Width="224" Canvas.Top="245" Name="chkboxDeparture" RenderTransformOrigin="0.5,0.5" Height="104" >
+            <Border.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Border.RenderTransform>
+            <StackPanel Margin="8,72,12,8" >
+                <DesignInControl:RangeSlider x:Name="rangeSliderDeparture" Height="10" LowerValue="0" UpperValue="100" BorderThickness="0" Padding="0,6,-4,0" VerticalAlignment="Top" Margin="0" />
+            </StackPanel>
+        </Border>
+        <!-- Drop Menu Slider (Departure) End-->
+
+
+        <!-- Dropdown Menu (Return) Start-->
+        <Border Style="{StaticResource MyBorderStyle}" Canvas.Left="455" Width="224" Canvas.Top="245" Name="chkboxReturn" RenderTransformOrigin="0.5,0.5" Height="104" >
+            <Border.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Border.RenderTransform>
+            <StackPanel Margin="8,72,12,8" >
+                <DesignInControl:RangeSlider x:Name="rangeSliderReturn" Height="10" LowerValue="0" UpperValue="100" BorderThickness="0" Padding="0,6,-4,0" VerticalAlignment="Top" Margin="0" />
+            </StackPanel>
+        </Border>
+        <!-- Drop Menu Slider (Return) End-->
+
+
+    </Canvas>
+</Window>
